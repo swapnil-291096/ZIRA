@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Master Suite">
+
+        <listeners>
+            <listener class-name="com.ZIRA.qa.Listeners.AssignTestPriorityListener" />
+            <listener class-name="com.ZIRA.qa.Listeners.ExtentListener"></listener>
+        </listeners>
+
+    <suite-files>
+        <suite-file path="./loginTest.xml" />
+        <suite-file path="./forgotPassword.xml" />
+        <suite-file path="./HomePage.xml" />
+        <suite-file path="./ZiraMastersPage.xml" />
+        <suite-file path="./CompanySignupPage.xml" />
+        <suite-file path="./TeamPage.xml" />
+        <suite-file path="./FSMProfile.xml" />
+    </suite-files>
+
+</suite> <!-- Suite -->
