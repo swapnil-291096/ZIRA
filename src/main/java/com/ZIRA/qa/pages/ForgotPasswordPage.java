@@ -192,7 +192,7 @@ public class ForgotPasswordPage extends TestBase {
 
     public void verifyResetPassword() throws Exception {
         TestUtils.sleep(8000L);
-        String val = emailVerification.getMailData("ZIRA", "ZIRA - Reset Password", "swapnil.shinde@mobifilia.com", "Ss@9527810513");
+        String val = emailVerification.getMailData("ZIRA", "ZIRA - Reset Password", "abc@test.com", "xyz");
         System.out.println(val);
         ExtentManager.getTest().log(Status.INFO, "Got the email text");
 
